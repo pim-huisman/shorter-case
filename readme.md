@@ -1,3 +1,16 @@
+## Angular UI
+I have created an Angular UI project in the sc-ui subfolder.
+
+To build the project you have to have nodejs and npm installed.
+npm i - to install the dependencies
+ng build - to build the project
+
+A prebuilt binary is deployed into the src/main/resources/static folder 
+and can be accessed at localhost:9000/index.html
+
+If you want to rebuild and deploy a new version then you have to  
+copy the content of sc-ui/dist/sc-ui to src/main/resources/static.
+
 Travel API Client
 =================
 
