@@ -4,6 +4,7 @@ I have created an Angular UI project in the sc-ui subfolder.
 To build the project you have to have nodejs and npm installed.
 * npm i - to install the dependencies
 * ng build - to build the project
+* ng serve - for local development (request are proxied to the BFF)
 
 A prebuilt binary is deployed into the src/main/resources/static folder 
 and can be accessed at localhost:9000/index.html
